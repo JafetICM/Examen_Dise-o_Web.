@@ -1,0 +1,91 @@
+body {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    background: url('../Fotos/HistoriaUniversal2-Portada.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #268bd2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #006dab;
+}
+
+#pregunta-container {
+    margin-bottom: 20px;
+}
+
+.respuesta {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee8d5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.respuesta:hover {
+    background-color: #ddd4c1;
+}
+
+.respuesta.correcta {
+    background-color: #859900;
+    color: #fff;
+}
+
+.respuesta.incorrecta {
+    background-color: #dc322f;
+    color: #fff;
+}
+
+.respuesta.no-respondida {
+    background-color: #b58900;
+    color: #fff;
+}
+
+#timer {
+    font-size: 18px;
+    color: #cb4b16;
+}
+
+#resultado {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mensaje-resultado {
+    font-size: 20px;
+    color: #657b83;
+}
+
+#puntuacion {
+    font-size: 24px;
+    color: #268bd2;
+}
